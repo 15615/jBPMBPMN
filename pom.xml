@@ -51,6 +51,7 @@
                     <!--<xmlOutputDirectory>target/site</xmlOutputDirectory>-->
                     <findbugsXmlOutput>true</findbugsXmlOutput>
                     <findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+                     <xmlOutputDirectory>target/site</xmlOutputDirectory>
                 </configuration>
             </plugin>
              <plugin>
