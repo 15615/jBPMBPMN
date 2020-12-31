@@ -3,7 +3,9 @@
   <groupId>bpmn</groupId>
   <artifactId>bpmn</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-<dependencies>
+ 
+  
+  <dependencies>
   <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate</artifactId>
@@ -37,9 +39,8 @@
     <scope>test</scope>
 </dependency>
 </dependencies>
-
-
- <reporting>
+  
+  <reporting>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -61,9 +62,13 @@
         </plugin>
         </plugins>
     </reporting>
-
-  <build>
-    <sourceDirectory>src</sourceDirectory>
+  
+  
+  
+   <build>
+  
+  
+  <sourceDirectory>src</sourceDirectory>
     <plugins>
     
     
@@ -83,13 +88,15 @@
         https://mvnrepository.com/artifact/org.codehaus.mojo/cobertura-maven-plugin -->
           
        </plugin>
-    
+
     <plugin>
+
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
     <version>2.6</version>
+
+
 </plugin>
-    
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
@@ -100,7 +107,6 @@
       </plugin>
     </plugins>
   </build>
-  
   
    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
